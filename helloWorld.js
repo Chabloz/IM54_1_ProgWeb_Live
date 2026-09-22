@@ -29,4 +29,4 @@ function make(thing){
   thing();
 }
 
-make(truc);no
+make(truc);
