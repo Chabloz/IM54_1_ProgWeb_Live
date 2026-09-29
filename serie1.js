@@ -112,13 +112,12 @@ function isPrime(n) {
 console.log("0 is prime : " + isPrime(0));
 console.log("1 is prime : " + isPrime(1));
 console.log("2 is prime : " + isPrime(2));
-
 console.log("26 is prime : " + isPrime(26));
 console.log("87178291197 is prime : " + isPrime(87178291197));
 console.log("87178291199 is prime : " + isPrime(87178291199));
 
 // 7) Ecrire une fonction nommée cl qui affiche dans la console, ligne après ligne, toutes les données fournies en paramètre. Exemple d'appel:
-function cl(...args) { // ... rest operator => mettre dans un tableau tous les paramètres
+function cl(...args) { // ... rest operator => mettre dans un tableau tous les paramètres restants
   for (const v of args) {
     console.log(v);
   }
@@ -129,5 +128,20 @@ function cl(...args) { // ... rest operator => mettre dans un tableau tous les p
     }
   */
 }
-cl(1);
+
 cl(1, 2 ,"a", [3.1, 4, 159]);
+
+function double(n) {
+  return n * 2;
+}
+
+function square(n) {
+  return n ** 2; // ou n * n
+}
+
+function transform(n, fct) {
+  return fct(n);
+}
+
+console.log(transform(5, double));
+console.log(double(5));
