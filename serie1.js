@@ -72,17 +72,17 @@ function count(n, values){
   return count;
 }
 
-const TAIL = 0;
-const FACE = 1;
+const TAILS = 0;
+const HEADS = 1;
 
 function getNbTailsAndFaces(times) {
-  const rolls = rollNTimes(TAIL, FACE, times);
-  const nbTails = count(TAIL, rolls);
-  const nbFaces = count(FACE, rolls);
+  const rolls = rollNTimes(TAILS, HEADS, times);
+  const nbTails = count(TAILS, rolls);
+  const nbHeads = count(HEADS, rolls);
   // const nbFaces = rolls.length - nbTails;
   return {
     tails: nbTails,
-    face: nbFaces,
+    heads: nbHeads,
   }
 }
 
