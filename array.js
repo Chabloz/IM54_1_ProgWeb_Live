@@ -11,7 +11,7 @@ const doubleValuesD = numbers.map(function (n) {
 const doubleValuesE = numbers.map(n => n*2);
 
 console.log(numbers);
-console.log(doubleValues);
+console.log(doubleValuesE);
 
 // sans le map, "à la main":
 const doubleValuesB = [];
