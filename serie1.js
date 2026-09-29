@@ -1,8 +1,15 @@
 // 1) Ecrire une fonction qui retourne la plus grande valeur parmi les trois nombres fournis en paramètre.
 function getMax(a, b, c) {
   if (a > b && a > c) return a;
-  if (b >c && b > c) return b;
+  if (b > a && b > c) return b;
   return c;
+}
+
+function getMaxV2(a, b, c) {
+  let max = a;
+  if (b > max) max = b;
+  if (c > max) max = c;
+  return max;
 }
 
 // let max = getMax(1, 5, 2);
@@ -33,10 +40,15 @@ function getEven(n) {
 
 function getEvenV2(n) {
   for (let x=0; x <= n; x++){
+    if (x % 2 == 0) console.log(x);
+  }
+}
+
+function getEvenMul7(n) {
+  for (let x=0; x <= n; x++){
     if (x % 2 == 0 && x % 7==0) console.log(x);
   }
 }
 
 getEven(20);
 getEvenV2(20);
-
