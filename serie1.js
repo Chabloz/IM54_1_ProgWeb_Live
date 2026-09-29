@@ -52,3 +52,82 @@ function getEvenMul7(n) {
 
 getEven(20);
 getEvenV2(20);
+
+// le nombre de piles et de faces obtenus sur un lancé de n pièces de monnaies simulées par l'utilisation du générateur de nombre aléatoire.
+
+function rollNTimes(min, max, times) {
+  // TODO manage input error
+  const rolls = [];
+  for (let i = 0; i<times; i++) {
+    rolls.push(getRandomInt(min, max));
+  }
+  return rolls;
+}
+
+function count(n, values){
+  let count = 0;
+  for (const v of values) {
+    if (v === n) count++;
+  }
+  return count;
+}
+
+const TAIL = 0;
+const FACE = 1;
+
+function getNbTailsAndFaces(times) {
+  const rolls = rollNTimes(TAIL, FACE, times);
+  const nbTails = count(TAIL, rolls);
+  const nbFaces = count(FACE, rolls);
+  // const nbFaces = rolls.length - nbTails;
+  return {
+    tails: nbTails,
+    face: nbFaces,
+  }
+}
+
+console.log(getNbTailsAndFaces(10000000));
+function isPrime(n) {
+    if (isNaN(n) || !Number.isInteger(n)) throw 'Not an integer';
+    if (n > Number.MAX_SAFE_INTEGER) throw 'Number too big';
+    if (n <= 1) return false;
+    if (n == 2) return true;
+    if (n % 2 == 0) return false;
+    if (n == 3) return true;
+    if (n % 3 == 0) return false;
+    // On pourrait continuer avec le crible d'Ératosthène pour les multiples de 5, 7, 11, ...
+    // mais cela rendrait la programmation de la boucle suivante très complexe
+    // et il faudrait donc repenser la totalité de l'algorithme.
+    let step = 2;
+    let div = 5;
+    while (div * div <= n && n % div != 0) {
+        div += step;
+        // Pas alterné (+2 +4 +2 +4 ...) pour ne pas parcourir les multiples de 2 ni de 3
+        step = (step + 1) % 4 + 1;
+    }
+    // Si aucun diviseur n'a été trouvé avant la racine du nb, c'est un nombre premier
+    return div * div > n;
+}
+
+console.log("0 is prime : " + isPrime(0));
+console.log("1 is prime : " + isPrime(1));
+console.log("2 is prime : " + isPrime(2));
+
+console.log("26 is prime : " + isPrime(26));
+console.log("87178291197 is prime : " + isPrime(87178291197));
+console.log("87178291199 is prime : " + isPrime(87178291199));
+
+// 7) Ecrire une fonction nommée cl qui affiche dans la console, ligne après ligne, toutes les données fournies en paramètre. Exemple d'appel:
+function cl(...args) { // ... rest operator => mettre dans un tableau tous les paramètres
+  for (const v of args) {
+    console.log(v);
+  }
+  /*
+    for (let i=0;: i<args.length; i++) {
+      const v = args[i];
+      console.log(v);
+    }
+  */
+}
+cl(1);
+cl(1, 2 ,"a", [3.1, 4, 159]);
