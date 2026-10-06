@@ -46,10 +46,33 @@ const reversedConcatenateAll = [...concatenateAll].reverse().join('');
 console.log(reversedConcatenateAll);
 console.log('Is a palindrom ? ' + (concatenateAll === reversedConcatenateAll));
 
+const JACK = 11;
+const QUEEN = 12;
+const KING = 13;
 const ACE = 14;
-const aceOfSpades = {
-  rank: ACE,
-  suite: 'spades',
+
+const RANKS = [2, 3, 4, 5, 6, 7, 8, 9, 10, JACK, QUEEN, KING, ACE];
+const SUITS = ['hearts', 'spades', 'clubs', 'diamonds'];
+
+function buildDeck() {
+  const deck = [];
+  for (const suit of SUITS ) {
+    for (const rank of RANKS) {
+      deck.push({rank, suit});
+    }
+  }
+  return deck;
 }
-const deck = [aceOfSpades];
+
+function shuffleArray(array) {
+    for (let i = array.length - 1; i >= 1; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]];
+    }
+    return array;
+}
+
+const deck = buildDeck();
+const deckShuffled = shuffleArray([...deck]);
 console.log(deck);
+console.log(deckShuffled);
