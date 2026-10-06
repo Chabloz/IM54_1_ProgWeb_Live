@@ -25,3 +25,31 @@ const doubleValuesc = [];
 for (const n of numbers) {
   doubleValues.push(double(n));
 }
+
+
+const withoutLast = numbers.slice(0, -1)
+console.log(withoutLast);
+
+const odd = numbers.filter((nb) => nb % 2 != 0);
+console.log(odd);
+
+const even = numbers.filter((nb) => nb % 2 == 0);
+console.log(even);
+
+const evenAndOdd = [...even, ...odd];
+console.log(evenAndOdd);
+
+const strings = Object.freeze(["Sator", "Arepo", "Tenet", "Opera", "Rotas"]);
+const concatenateAll = [...strings].join('').toLowerCase();
+console.log(concatenateAll);
+const reversedConcatenateAll = [...concatenateAll].reverse().join('');
+console.log(reversedConcatenateAll);
+console.log('Is a palindrom ? ' + (concatenateAll === reversedConcatenateAll));
+
+const ACE = 14;
+const aceOfSpades = {
+  rank: ACE,
+  suite: 'spades',
+}
+const deck = [aceOfSpades];
+console.log(deck);

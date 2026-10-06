@@ -145,3 +145,15 @@ function transform(n, fct) {
 
 console.log(transform(5, double));
 console.log(double(5));
+
+function createGreating(greating) {
+  return function (name) {
+    // return greating + ' ' + name;
+    return `${greating} ${name}`;
+  }
+}
+
+const sayHello = createGreating('Hello');
+const sayWelcome = createGreating('Welcome');
+console.log(sayHello('Nicolas'));
+console.log(sayWelcome('Nicolas'));
