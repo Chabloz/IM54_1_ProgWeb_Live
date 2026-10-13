@@ -1,0 +1,110 @@
+:root {
+    color-scheme: light;
+    --background: #f3f3f3;
+    --paper: #fff;
+    --ink: #202020;
+    --red: #b91c1c;
+    --border: #c4c4c4;
+    --selection-background: #fef3c7;
+    --selection-border: #a16207;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--background);
+    color: var(--ink);
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+}
+
+main {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 24px 16px 40px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.75rem;
+}
+
+.controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 24px 0;
+}
+
+button {
+    padding: 8px 12px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--paper);
+    color: var(--ink);
+    font: inherit;
+    cursor: pointer;
+}
+
+button:hover {
+    border-color: var(--ink);
+}
+
+button:focus-visible {
+    outline: 3px solid var(--ink);
+    outline-offset: 3px;
+}
+
+.deck,
+.hand {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(72px, 1fr));
+    gap: 12px;
+}
+
+.hand {
+    max-width: 440px;
+}
+
+playing-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    aspect-ratio: 5 / 7;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    background: var(--paper);
+    box-shadow: 0 2px 3px #00000014;
+    font-family: Georgia, serif;
+}
+
+playing-card.heart,
+playing-card.diamond {
+    color: var(--red);
+}
+
+.rank {
+    position: absolute;
+    top: 6px;
+    left: 8px;
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.suit {
+    font-size: 2.25rem;
+    line-height: 1;
+}
+
+playing-card.selected {
+    background: var(--selection-background);
+    border-color: var(--selection-border);
+    outline: 3px solid var(--selection-border);
+    outline-offset: 2px;
+    box-shadow: 0 4px 8px #00000026;
+}
