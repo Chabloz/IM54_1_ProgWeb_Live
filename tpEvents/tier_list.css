@@ -1,0 +1,162 @@
+:root {
+    color-scheme: light;
+    --background: #f3f3f3;
+    --paper: #fff;
+    --ink: #202020;
+    --border: #c4c4c4;
+    --selection-background: #fef3c7;
+    --selection-border: #a16207;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: var(--background);
+    color: var(--ink);
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+}
+
+main {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 24px 16px 40px;
+}
+
+h1, h2, h3, .item-name {
+    margin: 0;
+}
+
+h1 {
+    font-size: 1.75rem;
+}
+
+h2 {
+    margin-bottom: 12px;
+    font-size: 1.25rem;
+}
+
+form {
+    max-width: 560px;
+    margin: 24px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+
+.form-controls {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 8px;
+}
+
+input, button {
+    min-height: 36px;
+    padding: 6px 10px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--paper);
+    color: var(--ink);
+    font: inherit;
+}
+
+input {
+    width: 100%;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    border-color: var(--ink);
+}
+
+input:focus-visible, button:focus-visible {
+    outline: 3px solid var(--ink);
+    outline-offset: 2px;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: start;
+    align-items: start;
+    gap: 10px;
+    min-height: 100px;
+    padding: 12px;
+}
+
+.tier {
+    display: grid;
+    grid-template-columns: 40px minmax(0, 1fr);
+    border: 1px solid var(--border);
+    background: var(--paper);
+}
+
+.tier + .tier {
+    border-top: 0;
+}
+
+.tier h3 {
+    display: grid;
+    place-items: center;
+    background: var(--tier-color);
+    font-size: 1.25rem;
+}
+
+[data-tier="S"] { --tier-color: #ffc4bc; }
+[data-tier="A"] { --tier-color: #ffddb2; }
+[data-tier="B"] { --tier-color: #fff0ad; }
+[data-tier="C"] { --tier-color: #d6efbc; }
+[data-tier="D"] { --tier-color: #c6e3f7; }
+
+.item {
+    position: relative;
+    width: 180px;
+    max-width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    background: var(--paper);
+    box-shadow: 0 2px 3px #00000014;
+}
+
+.item-name {
+    min-height: 36px;
+    padding-right: 36px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    overflow-wrap: anywhere;
+}
+
+.item-controls {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4px;
+}
+
+.item-controls button {
+    padding: 4px 8px;
+    font-size: 0.875rem;
+}
+
+.item > [data-action="delete"] {
+    position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 32px;
+    padding: 4px;
+    border-color: transparent;
+}
+
+.item.selected {
+    background: var(--selection-background);
+    outline: 2px solid var(--selection-border);
+}

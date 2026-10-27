@@ -36,17 +36,17 @@ document.querySelector("#select-not-spades")
   .addEventListener('click', () => selectCards('.deck playing-card:not(.spade)'));
 
 on("#draw-hand", 'click', () => {
-    const deckShuffle = shuffle([...deck]);
-    const playerHand = deckShuffle.slice(0, 5);
-    const playerCards = [];
-    for (const card of playerHand) {
-      const cardClone = card.cloneNode(true);
-      cardClone.removeAttribute('id');
-      cardClone.classList.remove('selected');
-      playerCards.push(cardClone);
-    }
-    const domHand = document.querySelector('#hand')
-    domHand.replaceChildren(...playerCards);
-  });
+  const deckShuffle = shuffle([...deck]);
+  const playerHand = deckShuffle.slice(0, 5);
+  const playerCards = [];
+  for (const card of playerHand) {
+    const cardClone = card.cloneNode(true);
+    cardClone.removeAttribute('id');
+    cardClone.classList.remove('selected');
+    playerCards.push(cardClone);
+  }
+  const domHand = document.querySelector('#hand')
+  domHand.replaceChildren(...playerCards);
+});
 
-  on('playing-card', 'click', (card) => console.log(card));
+

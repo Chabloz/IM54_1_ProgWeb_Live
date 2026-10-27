@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tier list — DOM</title>
+    <script type="module" src="tier_list.js"></script>
+    <link rel="stylesheet" href="tier_list.css">
+</head>
+<body>
+    <main>
+        <h1>My tier list</h1>
+        <p>Add your items and rank them from S to D. Within each tier, arrange them in order of preference, with your favorites first.</p>
+
+        <form id="add-item-form">
+            <label for="item-name">Item name</label>
+            <div class="form-controls">
+                <input id="item-name" name="name" type="text" placeholder="A movie, a game, a food…" required maxlength="80">
+                <button>Add</button>
+            </div>
+        </form>
+
+            <section class="tiers-panel">
+                <h2>Tier list</h2>
+                <p>New items start in S. Change their tier or order, and use 🗑️ to delete them.</p>
+                <div id="tiers">
+                    <section class="tier" data-tier="S">
+                        <h3>S</h3>
+                        <div id="tier-s" class="items"></div>
+                    </section>
+                    <section class="tier" data-tier="A">
+                        <h3>A</h3>
+                        <div id="tier-a" class="items"></div>
+                    </section>
+                    <section class="tier" data-tier="B">
+                        <h3>B</h3>
+                        <div id="tier-b" class="items"></div>
+                    </section>
+                    <section class="tier" data-tier="C">
+                        <h3>C</h3>
+                        <div id="tier-c" class="items"></div>
+                    </section>
+                    <section class="tier" data-tier="D">
+                        <h3>D</h3>
+                        <div id="tier-d" class="items"></div>
+                    </section>
+                </div>
+            </section>
+    </main>
+
+    <template id="item-template">
+        <article class="item">
+            <button data-action="delete" title="Delete this item"><span>🗑️</span></button>
+            <p class="item-name"></p>
+            <div class="item-controls">
+                <button data-action="up" title="Move to a higher tier">Tier <span>▲</span></button>
+                <button data-action="down" title="Move to a lower tier">Tier <span>▼</span></button>
+                <button data-action="previous" title="Move earlier within this tier">Order <span>+</span></button>
+                <button data-action="next" title="Move later within this tier">Order <span>−</span></button>
+            </div>
+        </article>
+    </template>
+</body>
+</html>
