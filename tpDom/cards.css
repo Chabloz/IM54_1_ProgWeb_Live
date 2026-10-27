@@ -21,6 +21,10 @@ body {
     line-height: 1.5;
 }
 
+.hidden {
+  display: none;
+}
+
 main {
     max-width: 1120px;
     margin: 0 auto;
