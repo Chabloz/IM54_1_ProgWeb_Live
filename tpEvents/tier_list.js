@@ -14,7 +14,7 @@ on('#add-item-form', 'submit', (form, event) => {
   getNode('#item-name').value = '';
   const tierS = getNode('[ data-tier="S"] .items');
   const clone = tmplItem.cloneNode(true);
-  getNode('.item-name', clone).innerHTML = itemName;
+  getNode('.item-name', clone).textContent = itemName;
   tierS.append(clone);
 
 })
