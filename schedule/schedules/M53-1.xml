@@ -1,0 +1,1105 @@
+<?xml version="1.0"?>
+<VCALENDAR>
+  <VERSION>2.0</VERSION>
+  <PRODID>-//HEIG-VD//GAPS</PRODID>
+  <X-HEIGVD-SCHEDULEID>Horaire_M53-1_S1_2026_2027</X-HEIGVD-SCHEDULEID>
+  <X-HEIGVD-DTSCHEDULESTART TZID="Europe/Zurich">20260923T083000</X-HEIGVD-DTSCHEDULESTART>
+  <X-HEIGVD-DTSCHEDULEEND TZID="Europe/Zurich">20261024T000000</X-HEIGVD-DTSCHEDULEEND>
+  <VTIMEZONE>
+    <TZID>Europe/Zurich</TZID>
+    <X-LIC-LOCATION>Europe/Zurich</X-LIC-LOCATION>
+    <DAYLIGHT>
+      <TZOFFSETFROM>+0100</TZOFFSETFROM>
+      <TZOFFSETTO>+0200</TZOFFSETTO>
+      <TZNAME>CEST</TZNAME>
+      <DTSTART>19700329T020000</DTSTART>
+      <RRULE>FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU</RRULE>
+    </DAYLIGHT>
+    <STANDARD>
+      <TZOFFSETFROM>+0200</TZOFFSETFROM>
+      <TZOFFSETTO>+0100</TZOFFSETTO>
+      <TZNAME>CET</TZNAME>
+      <DTSTART>19701025T030000</DTSTART>
+      <RRULE>FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU</RRULE>
+    </STANDARD>
+  </VTIMEZONE>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260923T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260923T120000</DTEND>
+    <SUMMARY>OP5-DigSto-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5714-238685-8</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270120T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270120T120000</DTEND>
+    <SUMMARY>OP5-DigSto-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5714-238685-109</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270114T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270114T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238312-105</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261026T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261026T161500</DTEND>
+    <SUMMARY>DévMobil-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4748-238309-38</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261123T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261123T120000</DTEND>
+    <SUMMARY>ProfPro-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5713-238364-70</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261015T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261015T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C1</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238311-36</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261118T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261118T161500</DTEND>
+    <SUMMARY>Startup-A-C1</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4235-238470-68</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260924T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260924T161500</DTEND>
+    <SUMMARY>ArchInfoUX-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4210-238268-15</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261014T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261014T161500</DTEND>
+    <SUMMARY>BusPlan-A-C1</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4234-238277-35</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261201T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261201T161500</DTEND>
+    <SUMMARY>UXLab-A-C3</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4211-238481-80</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261111T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261111T120000</DTEND>
+    <SUMMARY>ArchiOWeb-A-C2</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4253-238274-60</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261006T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261006T120000</DTEND>
+    <SUMMARY>SysComplex-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4236-238472-24</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270120T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270120T120000</DTEND>
+    <SUMMARY>OP5-IA-A-C1</SUMMARY>
+    <LOCATION>S135</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5715-238697-109</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270121T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270121T161500</DTEND>
+    <SUMMARY>ArchInfoUX-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4210-238268-116</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261008T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261008T161500</DTEND>
+    <SUMMARY>ArchInfoUX-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4210-238268-29</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261209T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261209T120000</DTEND>
+    <SUMMARY>ArchiOWeb-A-C2</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4253-238274-92</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261007T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261007T161500</DTEND>
+    <SUMMARY>BusPlan-A-C1</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4234-238277-27</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270113T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270113T161500</DTEND>
+    <SUMMARY>Startup-A-C1</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4235-238470-104</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261209T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261209T161500</DTEND>
+    <SUMMARY>Startup-A-C1</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4235-238470-93</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260929T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260929T161500</DTEND>
+    <SUMMARY>UXLab-A-C4</SUMMARY>
+    <LOCATION>T153, T157, T158</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4211-238595-17</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270120T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270120T161500</DTEND>
+    <SUMMARY>OP5-IA-A-C2</SUMMARY>
+    <LOCATION>S135</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5715-238698-112</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261103T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261103T161500</DTEND>
+    <SUMMARY>UXLab-A-C6</SUMMARY>
+    <LOCATION>T153, T157</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4211-238599-52</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261008T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261008T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238312-28</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261111T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261111T161500</DTEND>
+    <SUMMARY>Startup-A-C1</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4235-238470-61</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261126T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261126T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238312-76</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261028T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261028T161500</DTEND>
+    <SUMMARY>OP5-EcoC-A-C2</SUMMARY>
+    <LOCATION>T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5717-238690-44</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260929T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260929T120000</DTEND>
+    <SUMMARY>SysComplex-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4236-238472-16</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261208T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261208T161500</DTEND>
+    <SUMMARY>UXLab-A-C3</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4211-238481-91</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261001T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261001T161500</DTEND>
+    <SUMMARY>ArchInfoUX-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4210-238268-21</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270111T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270111T161500</DTEND>
+    <SUMMARY>DévMobil-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4748-238309-102</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270118T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270118T120000</DTEND>
+    <SUMMARY>LabVeilTec-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4731-238331-107</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260916T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260916T161500</DTEND>
+    <SUMMARY>BusPlan-A-C1</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4234-238277-5</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261202T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261202T161500</DTEND>
+    <SUMMARY>OP5-IA-A-C4</SUMMARY>
+    <LOCATION>T157</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5715-238954-84</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261117T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261117T161500</DTEND>
+    <SUMMARY>UXLab-A-C3</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4211-238481-66</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261130T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261130T120000</DTEND>
+    <SUMMARY>LabVeilTec-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4731-238331-78</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261110T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261110T161500</DTEND>
+    <SUMMARY>UXLab-A-C5</SUMMARY>
+    <LOCATION>T141, T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4211-238598-59</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260914T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260914T120000</DTEND>
+    <SUMMARY>ProfPro-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5713-238364-1</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260923T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260923T161500</DTEND>
+    <SUMMARY>OP5-IA-A-C4</SUMMARY>
+    <LOCATION>T157</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5715-238954-11</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261109T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261109T161500</DTEND>
+    <SUMMARY>DévMobil-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4748-238309-58</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261112T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261112T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238312-62</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261123T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261123T161500</DTEND>
+    <SUMMARY>DévMobil-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4748-238309-71</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260923T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260923T161500</DTEND>
+    <SUMMARY>OP5-DigSto-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5714-238686-11</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261112T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261112T161500</DTEND>
+    <SUMMARY>ArchInfoUX-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4210-238268-63</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261005T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261005T161500</DTEND>
+    <SUMMARY>DévMobil-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4748-238309-23</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260914T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260914T161500</DTEND>
+    <SUMMARY>ArchInfoUX-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4210-238267-2</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270111T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270111T120000</DTEND>
+    <SUMMARY>LabVeilTec-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4731-238331-101</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261217T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261217T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C1</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238311-100</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261102T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261102T120000</DTEND>
+    <SUMMARY>ProfPro-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5713-238364-49</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261118T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261118T120000</DTEND>
+    <SUMMARY>ArchiOWeb-A-C2</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4253-238274-67</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261203T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261203T161500</DTEND>
+    <SUMMARY>ArchInfoUX-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4210-238268-88</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260915T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260915T161500</DTEND>
+    <SUMMARY>UXLab-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4211-238478-3</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260916T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260916T120000</DTEND>
+    <SUMMARY>ArchiOWeb-A-C1</SUMMARY>
+    <LOCATION>T105, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4253-238273-4</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261029T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261029T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238312-47</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261029T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261029T161500</DTEND>
+    <SUMMARY>ArchInfoUX-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4210-238268-48</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261124T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261124T161500</DTEND>
+    <SUMMARY>UXLab-A-C3</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4211-238481-73</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261130T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261130T161500</DTEND>
+    <SUMMARY>DévMobil-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4748-238309-79</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261026T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261026T120000</DTEND>
+    <SUMMARY>ProfPro-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5713-238364-37</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260923T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260923T120000</DTEND>
+    <SUMMARY>OP5-IA-A-C3</SUMMARY>
+    <LOCATION>T157</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5715-238953-8</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261028T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261028T161500</DTEND>
+    <SUMMARY>OP5-DigSto-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5714-238686-44</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261103T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261103T120000</DTEND>
+    <SUMMARY>SysComplex-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4236-238472-51</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261028T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261028T120000</DTEND>
+    <SUMMARY>OP5-DigSto-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5714-238685-41</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260923T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260923T120000</DTEND>
+    <SUMMARY>OP5-EcoC-A-C1</SUMMARY>
+    <LOCATION>T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5717-238689-8</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261116T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261116T161500</DTEND>
+    <SUMMARY>DévMobil-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4748-238309-65</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261105T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261105T161500</DTEND>
+    <SUMMARY>ArchInfoUX-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4210-238268-56</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261013T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261013T161500</DTEND>
+    <SUMMARY>UXLab-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4211-238480-33</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270118T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270118T161500</DTEND>
+    <SUMMARY>DévMobil-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4748-238309-108</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261027T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261027T161500</DTEND>
+    <SUMMARY>UXLab-A-C6</SUMMARY>
+    <LOCATION>T153, T157</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4211-238599-40</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261124T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261124T120000</DTEND>
+    <SUMMARY>SysComplex-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4236-238472-72</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261012T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261012T161500</DTEND>
+    <SUMMARY>DévMobil-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4748-238309-31</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261210T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261210T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238312-94</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261012T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261012T120000</DTEND>
+    <SUMMARY>ProfPro-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5713-238364-30</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261005T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261005T120000</DTEND>
+    <SUMMARY>ProfPro-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5713-238364-22</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261116T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261116T120000</DTEND>
+    <SUMMARY>ProfPro-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5713-238364-64</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261104T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261104T120000</DTEND>
+    <SUMMARY>ArchiOWeb-A-C2</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4253-238274-53</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270120T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270120T120000</DTEND>
+    <SUMMARY>OP5-EcoC-A-C1</SUMMARY>
+    <LOCATION>T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5717-238689-109</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270128T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270128T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238312-118</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260930T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260930T120000</DTEND>
+    <SUMMARY>ArchiOWeb-A-C2</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4253-238274-18</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261028T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261028T120000</DTEND>
+    <SUMMARY>OP5-IA-A-C3</SUMMARY>
+    <LOCATION>T157</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5715-238953-41</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261013T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261013T120000</DTEND>
+    <SUMMARY>SysComplex-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4236-238472-32</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261202T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261202T120000</DTEND>
+    <SUMMARY>OP5-DigSto-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5714-238685-81</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270120T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270120T161500</DTEND>
+    <SUMMARY>OP5-DigSto-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5714-238686-112</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260923T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260923T161500</DTEND>
+    <SUMMARY>OP5-EcoC-A-C2</SUMMARY>
+    <LOCATION>T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5717-238690-11</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261105T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261105T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238312-55</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261207T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261207T120000</DTEND>
+    <SUMMARY>LabVeilTec-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4731-238331-89</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261109T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261109T120000</DTEND>
+    <SUMMARY>ProfPro-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5713-238364-57</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270113T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270113T120000</DTEND>
+    <SUMMARY>ArchiOWeb-A-C2</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4253-238274-103</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261102T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261102T161500</DTEND>
+    <SUMMARY>DévMobil-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4748-238309-50</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261028T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261028T161500</DTEND>
+    <SUMMARY>OP5-IA-A-C4</SUMMARY>
+    <LOCATION>T157</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5715-238954-44</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261207T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261207T161500</DTEND>
+    <SUMMARY>DévMobil-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4748-238309-90</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270127T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270127T120000</DTEND>
+    <SUMMARY>ArchiOWeb-A-C3</SUMMARY>
+    <LOCATION>T105, T107</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4253-238534-117</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261125T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261125T161500</DTEND>
+    <SUMMARY>Startup-A-C1</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4235-238470-75</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261125T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261125T120000</DTEND>
+    <SUMMARY>ArchiOWeb-A-C2</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4253-238274-74</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260930T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260930T161500</DTEND>
+    <SUMMARY>BusPlan-A-C1</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4234-238277-19</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261216T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261216T161500</DTEND>
+    <SUMMARY>Startup-A-C1</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4235-238470-99</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261202T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261202T161500</DTEND>
+    <SUMMARY>OP5-DigSto-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5714-238686-84</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261104T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261104T161500</DTEND>
+    <SUMMARY>BusPlan-A-C1</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4234-238277-54</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261006T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261006T161500</DTEND>
+    <SUMMARY>UXLab-A-C4</SUMMARY>
+    <LOCATION>T153, T157, T158</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4211-238595-25</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261202T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261202T120000</DTEND>
+    <SUMMARY>OP5-IA-A-C3</SUMMARY>
+    <LOCATION>T157</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5715-238953-81</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260924T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260924T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238312-14</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261126T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261126T161500</DTEND>
+    <SUMMARY>ArchInfoUX-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4210-238268-77</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261214T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261214T161500</DTEND>
+    <SUMMARY>DévMobil-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4748-238309-97</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261014T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261014T120000</DTEND>
+    <SUMMARY>ArchiOWeb-A-C2</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4253-238274-34</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261216T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261216T120000</DTEND>
+    <SUMMARY>ArchiOWeb-A-C2</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4253-238274-98</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260922T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260922T161500</DTEND>
+    <SUMMARY>UXLab-A-C4</SUMMARY>
+    <LOCATION>T153, T157, T158</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4211-238595-7</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261119T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261119T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C1</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238311-69</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261214T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261214T120000</DTEND>
+    <SUMMARY>LabVeilTec-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4731-238331-96</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270114T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270114T161500</DTEND>
+    <SUMMARY>ArchInfoUX-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4210-238268-106</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261028T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261028T120000</DTEND>
+    <SUMMARY>OP5-EcoC-A-C1</SUMMARY>
+    <LOCATION>T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5717-238689-41</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270121T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270121T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238312-115</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261027T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261027T120000</DTEND>
+    <SUMMARY>SysComplex-A-C1</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4236-238472-39</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270120T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270120T161500</DTEND>
+    <SUMMARY>OP5-EcoC-A-C2</SUMMARY>
+    <LOCATION>T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5717-238690-112</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261007T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261007T120000</DTEND>
+    <SUMMARY>ArchiOWeb-A-C2</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4253-238274-26</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261203T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261203T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238312-87</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261202T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261202T161500</DTEND>
+    <SUMMARY>OP5-EcoC-A-C2</SUMMARY>
+    <LOCATION>T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5717-238690-84</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20270128T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20270128T161500</DTEND>
+    <SUMMARY>ArchInfoUX-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4210-238268-119</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20260917T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20260917T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C1</SUMMARY>
+    <LOCATION>R102, T153, T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238311-6</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261202T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261202T120000</DTEND>
+    <SUMMARY>OP5-EcoC-A-C1</SUMMARY>
+    <LOCATION>T155</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-5717-238689-81</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261001T083000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261001T120000</DTEND>
+    <SUMMARY>EvalOptPro-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4213-238312-20</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART TZID="Europe/Zurich">20261210T130000</DTSTART>
+    <DTEND TZID="Europe/Zurich">20261210T161500</DTEND>
+    <SUMMARY>ArchInfoUX-A-C2</SUMMARY>
+    <LOCATION>T153</LOCATION>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-lesson-4210-238268-95</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+  <VEVENT>
+    <DTSTART VALUE="DATE">20261019</DTSTART>
+    <DTEND VALUE="DATE">20261024</DTEND>
+    <SUMMARY>Travail personnel</SUMMARY>
+    <STATUS>CONFIRMED</STATUS>
+    <UID>gaps-fulldayevent-816</UID>
+    <DESCRIPTION>https://gaps.heig-vd.ch/consultation/horaires</DESCRIPTION>
+  </VEVENT>
+</VCALENDAR>

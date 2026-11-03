@@ -29,3 +29,7 @@ export function swapNodes(el1, el2) {
   el2.replaceWith(el1);
   placeholder.replaceWith(el2);
 }
+
+export function tmplClone(selector) {
+  return getNode(selector).content.firstElementChild.cloneNode(true);
+}

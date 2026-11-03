@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <title>IM - Horaires</title>
+    <link rel="icon" href="./assets/favicon.ico" sizes="any">
+    <link rel="stylesheet" href="./schedule.css">
+    <script src="./main.js" type="module"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-content">
+        <div class="brand">
+          <img src="./assets/logo.png" alt="" width="40" height="40">
+          <h1>IM <span aria-hidden="true">–</span> Horaires</h1>
+        </div>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Changer de thème">
+          <span class="theme-icon icon-moon" aria-hidden="true">🌙</span>
+          <span class="theme-icon icon-sun" aria-hidden="true">☀️</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="container">
+      <section class="class-picker" aria-label="Choisir une classe">
+        <div class="action" role="group" aria-label="Choisir une classe">
+          <button type="button" data-class-id="M53-1" class="btn-schedule">IM53-1</button>
+          <button type="button" data-class-id="M53-2" class="btn-schedule">IM53-2</button>
+          <button type="button" data-class-id="M54-1" class="btn-schedule">IM54-1</button>
+          <button type="button" data-class-id="M54-2" class="btn-schedule">IM54-2</button>
+          <button type="button" data-class-id="M55-1" class="btn-schedule">IM55-1</button>
+          <button type="button" data-class-id="M55-2" class="btn-schedule">IM55-2</button>
+        </div>
+      </section>
+
+      <section class="schedule-section" aria-label="Horaire">
+        <p id="schedule-status" role="status"></p>
+        <div class="table-scroll" role="region" aria-label="Horaire des cours" tabindex="0">
+          <table>
+            <tbody id="schedule"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <template id="course-template">
+        <tr class="template-course">
+          <td class="date"></td>
+          <td class="hours"><span class="start"></span><span class="end"></span></td>
+          <td class="course"></td>
+          <td class="room"></td>
+        </tr>
+      </template>
+    </main>
+    <footer class="site-footer">Ingénierie des médias · HEIG-VD</footer>
+  </body>
+</html>
