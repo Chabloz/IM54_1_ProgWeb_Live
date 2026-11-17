@@ -1,0 +1,233 @@
+:root {
+  color-scheme: light;
+  --theme: oklch(56% 0.16 215);
+  --primary: var(--theme);
+  --background: oklch(from var(--theme) 0.98 calc(c * 0.03) h);
+  --surface: oklch(from var(--theme) 1 0 h);
+  --text: oklch(from var(--theme) 0.31 calc(c * 0.25) h);
+  --muted: oklch(from var(--theme) 0.54 calc(c * 0.24) h);
+  --border: oklch(from var(--theme) 0.91 calc(c * 0.1) h);
+  --stripe: oklch(from var(--theme) 0.985 calc(c * 0.03) h);
+  --hover: oklch(from var(--theme) 0.96 calc(c * 0.1) h);
+  --accent: oklch(from var(--theme) 0.51 c h);
+  --selected: oklch(from var(--theme) 0.95 calc(c * 0.15) h);
+  --on-primary: oklch(from var(--theme) 1 0 h);
+  --shadow: 0 0.125rem 0.5rem oklch(from var(--theme) 0.3 calc(c * 0.4) h / 5%);
+}
+
+body[data-theme="dark"] {
+  color-scheme: dark;
+  --background: oklch(from var(--theme) 0.18 calc(c * 0.03) h);
+  --surface: oklch(from var(--theme) 0.23 calc(c * 0.04) h);
+  --text: oklch(from var(--theme) 0.95 calc(c * 0.06) h);
+  --muted: oklch(from var(--theme) 0.76 calc(c * 0.16) h);
+  --border: oklch(from var(--theme) 0.35 calc(c * 0.1) h);
+  --stripe: oklch(from var(--theme) 0.26 calc(c * 0.06) h);
+  --hover: oklch(from var(--theme) 0.32 calc(c * 0.2) h);
+  --accent: oklch(from var(--theme) 0.8 calc(c * 0.65) h);
+  --selected: oklch(from var(--theme) 0.35 calc(c * 0.35) h);
+  --shadow: none;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  min-width: 20rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: var(--background);
+  color: var(--text);
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+button { font: inherit; cursor: pointer; }
+button:disabled { opacity: .5; cursor: not-allowed; }
+
+:focus-visible {
+  outline: 0.1875rem solid var(--accent);
+  outline-offset: 0.25rem;
+}
+
+.site-header {
+  background: var(--primary);
+  color: var(--on-primary);
+  box-shadow: 0 0.125rem 0.375rem oklch(from var(--theme) 0 0 h / 15%);
+}
+
+.header-content {
+  max-width: 70rem;
+  margin: auto;
+  padding: 0.875rem 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.brand { display: flex; align-items: center; gap: 0.875rem; }
+.brand img { width: 2.5rem; height: 2.5rem; object-fit: contain; }
+h1 { margin: 0; font-size: 1.4375rem; font-weight: 600; letter-spacing: -0.03125rem; }
+
+.theme-toggle {
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  flex-shrink: 0;
+  border: 0;
+  border-radius: 50%;
+  background: oklch(0% 0 0 / 0%);
+  color: inherit;
+}
+
+.theme-toggle:hover { background: oklch(from var(--theme) 1 0 h / 15%); }
+.theme-toggle:focus-visible { outline-color: var(--on-primary); }
+
+.theme-icon {
+  font-size: 1.5rem;
+  line-height: 1;
+}
+
+.icon-sun { display: none; }
+body[data-theme="dark"] .icon-sun { display: block; }
+body[data-theme="dark"] .icon-moon { display: none; }
+
+main {
+  width: min(100%, 70rem);
+  margin: 0 auto;
+  padding: 2.25rem 1.5rem 3rem;
+  flex: 1;
+}
+
+#movies {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: start;
+  gap: 1.25rem;
+}
+
+.movie {
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.movie-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.25rem;
+}
+
+.movie-title { min-width: 0; }
+.episode {
+  margin: 0 0 0.375rem;
+  color: var(--accent);
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+h2 { margin: 0; font-size: 1.125rem; font-weight: 600; line-height: 1.35; }
+h3 { margin: 0 0 0.625rem; font-size: 0.9375rem; font-weight: 600; }
+
+.btn-planets {
+  flex-shrink: 0;
+  min-height: 2.75rem;
+  padding: 0.5rem 0.875rem;
+  border: 1px solid var(--border);
+  border-radius: 0.375rem;
+  background: var(--surface);
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.btn-planets:hover { border-color: var(--accent); background: var(--hover); }
+
+.planets {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  opacity: 1;
+  transition:
+    opacity 200ms ease,
+    display 200ms allow-discrete;
+}
+
+.planets[hidden] { opacity: 0; }
+
+@starting-style {
+  .planets:not([hidden]) { opacity: 0; }
+}
+
+.planets:empty { display: none; }
+.planet { padding: 1rem 1.25rem; border-top: 1px solid var(--border); }
+.planet:nth-child(odd) { background: var(--stripe); }
+.planet-details { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 0; }
+.planet-details dt { margin-bottom: 0.125rem; color: var(--muted); font-size: 0.75rem; }
+.planet-details dd { margin: 0; font-size: 0.875rem; overflow-wrap: anywhere; }
+.planet-diameter { font-variant-numeric: tabular-nums; }
+
+.fetch-loader {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.875rem 1.125rem;
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  background: var(--surface);
+  color: var(--text);
+  box-shadow: var(--shadow);
+  pointer-events: none;
+  z-index: 10;
+}
+
+[hidden] { display: none !important; }
+
+.spinner {
+  width: 1.125rem;
+  height: 1.125rem;
+  border: 0.125rem solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+}
+
+@keyframes spin { to { transform: rotate(1turn); } }
+
+.site-footer {
+  padding: 1.125rem 1.5rem;
+  border-top: 1px solid var(--border);
+  color: var(--muted);
+  text-align: center;
+  font-size: 0.75rem;
+}
+
+@media (max-width: 50rem) {
+  #movies { grid-template-columns: 1fr; }
+}
+
+@media (max-width: 37.5rem) {
+  .header-content { padding: 0.75rem 1rem; }
+  h1 { font-size: 1.25rem; }
+  main { padding: 1.75rem 1rem 2.25rem; }
+  .movie-header { padding: 1rem; }
+  .planet { padding: 1rem; }
+  .fetch-loader { right: 1rem; bottom: 1rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .planets { transition: none; }
+  .spinner { animation: none; }
+}

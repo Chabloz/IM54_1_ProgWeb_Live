@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="light dark">
+    <title>Fetch et JSON</title>
+    <link rel="icon" href="/src/assets/favicon.ico" sizes="any">
+    <link rel="stylesheet" href="/src/fetch.css">
+    <script src="/src/main.js" type="module"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-content">
+        <div class="brand">
+          <img src="/src/assets/logo.png" alt="" width="40" height="40">
+          <h1>Fetch et JSON</h1>
+        </div>
+        <button id="theme-toggle" class="theme-toggle" type="button" aria-label="Changer de thème">
+          <span class="theme-icon icon-moon" aria-hidden="true">🌙</span>
+          <span class="theme-icon icon-sun" aria-hidden="true">☀️</span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <div id="movies"></div>
+    </main>
+
+    <template id="movie-template">
+      <article class="movie">
+        <header class="movie-header">
+          <div class="movie-title">
+            <p class="episode">Épisode <span class="movie-episode"></span></p>
+            <h2 class="movie-name"></h2>
+          </div>
+          <button type="button" class="btn-planets">Planètes</button>
+        </header>
+        <ul class="planets"></ul>
+      </article>
+    </template>
+
+    <template id="planet-template">
+      <li class="planet">
+        <h3 class="planet-name"></h3>
+        <dl class="planet-details">
+          <div>
+            <dt>Climat</dt>
+            <dd class="planet-climate"></dd>
+          </div>
+          <div>
+            <dt>Diamètre</dt>
+            <dd><span class="planet-diameter"></span> km</dd>
+          </div>
+        </dl>
+      </li>
+    </template>
+
+    <div id="fetch-loader" class="fetch-loader" role="status">
+      <span class="spinner" aria-hidden="true"></span>
+      <span>Chargement…</span>
+    </div>
+
+    <footer class="site-footer">Ingénierie des médias · HEIG-VD</footer>
+  </body>
+</html>
